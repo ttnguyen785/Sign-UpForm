@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url(Norse-Bold.otf) format('opentype');
+}
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.image-container {
+    width: 30%;
+    height: 100vh;
+    position: relative; 
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .header-text {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    justify-content: center;
+    font-size: 6rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+    height: 150px;
+    align-items: center;
+    font-family: 'MyFont', sans-serif;
+  }
+
+  .header-text > img {
+    width: 100px;
+    height: 100%;
+    object-fit: contain;
+  }
