@@ -43,29 +43,24 @@ body {
     object-fit: contain;
 }
 
-.header {
+.right {
     display: flex;
     flex-direction: column;
     background-color: #f8f9fa;
     color: black;
-    width: 47%;
-    height: 348px;
-    align-items: flex-start;
-    padding-left: 40px;
-    box-sizing: border-box;
+    width: 50vw;
 }
 
-.header > * {
-    font-family: sans-serif;
-    font-size: 17px;
-   
-}
 .header-text {
-    max-width: 65%;
-    margin-top: 150px;
-    
+    height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .incentive-text {
     margin-top: 40px;
 }
+
