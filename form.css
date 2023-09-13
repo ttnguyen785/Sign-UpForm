@@ -37,7 +37,19 @@ body {
     align-items: center;
     font-family: 'MyFont', sans-serif;
   }
-
+  .artist {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 96%;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+}
+.artist > a {
+    color: white;
+    margin: 0 3px;
+}
 .banner-text > img {
     width: 100px;
     height: 80%;
@@ -124,3 +136,4 @@ input:invalid {
     font-size: 10px;
     margin: 1px;
 }
+
