@@ -59,11 +59,11 @@ body {
     justify-content: flex-start;
     align-items: flex-end;
     margin-left: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .form-container {
-    height: 30vh;
+    height: 27vh;
     background-color: white;
 }
 
@@ -73,4 +73,19 @@ body {
 
 .form-main {
     display: flex;
+    margin-left: 5%;
+}
+
+.form-divs {
+    margin-right: 8%;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+}
+
+.long-input {
+    width: 250px;
 }
