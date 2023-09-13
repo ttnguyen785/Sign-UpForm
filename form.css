@@ -67,13 +67,11 @@ body {
     background-color: white;
 }
 
-.form-container > h3 {
+.form-container > h3,
+.form-main,
+.footer-div {
     margin-left: 5%;
-}
-
-.form-main {
     display: flex;
-    margin-left: 5%;
 }
 
 .form-divs {
@@ -88,4 +86,18 @@ body {
 
 .long-input {
     width: 250px;
+}
+
+.footer-div {
+    flex-direction: column;
+}
+
+.account {
+    margin-top: 5%;
+    width: 220px;
+    background-color: #596D48;
+    border-radius: 5px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
 }
