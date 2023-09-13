@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Sign Up form</title>
     <link rel="stylesheet" href="form.css">
+    <script src="form.js" defer></script>
 </head>
 <body>
     <div class="image-container">
@@ -35,7 +36,8 @@
                     </div>
                     <div class="form-div">
                         <label for="password">Password</label>
-                    <input type="password" id="password" class="long-input">
+                    <input type="password" id="password" class="long-input" oninput="checkPassword()" required>
+                    <p id="error">*passwords do not match</p>
                     </div>
                 </div>
                 <div class="form-divs">
@@ -49,14 +51,14 @@
                     </div>
                     <div class="form-div">
                         <label for="confirm">Confirm Password</label>
-                        <input type="text" id="confirm" class="long-input">
+                        <input type="password" id="confirm" class="long-input" oninput="checkPassword()" required>
                     </div>
                 </div>
             </form>
         </div>
         <div class="footer-div">
             <button class="account">Create Account</button>
-            <p>Already have an account? Log in</p>
+            <p>Already have an account? <span class="hightlight">Log in</span></p>
         </div>
     </div>
 </body>

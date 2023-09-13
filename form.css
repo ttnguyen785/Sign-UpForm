@@ -86,8 +86,16 @@ body {
 
 .long-input {
     width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.long-input:focus {
+    border-color: #6184de;
+    box-shadow: 0 0 5px #adbde7;
 }
 
+input:invalid {
+    border-color: red;
+}
 .footer-div {
     flex-direction: column;
 }
@@ -100,4 +108,19 @@ body {
     height: 50px;
     font-weight: bold;
     font-size: 16px;
+    color:white
+}
+
+.footer-div > p {
+    margin-top: 4%;
+}
+
+.hightlight {
+    color:#596D48;
+}
+
+#error {
+    color:red;
+    font-size: 10px;
+    margin: 1px;
 }
